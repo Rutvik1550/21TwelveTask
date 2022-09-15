@@ -1,0 +1,16 @@
+.home_page {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 50px;
+}
+
+.userCardWrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 767px) {
+  .userCardWrapper {
+    justify-content: center;
+  }
+}

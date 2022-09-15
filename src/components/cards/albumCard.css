@@ -1,0 +1,38 @@
+.albumContainer {
+  display: flex;
+  flex-direction: column;
+  height: 260px;
+  width: 220px;
+  box-shadow: rgb(0 0 0 / 30%) 0px 0px 6px;
+  margin: 5px 10px 10px 5px;
+  border-radius: 10px;
+  justify-content: space-between;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.albumContainer:hover {
+  box-shadow: rgb(0 0 0 / 30%) 0px 0px 12px;
+}
+
+.albumContainer h6 {
+  margin-top: 5px;
+}
+
+.albumContainer img {
+  height: 100%;
+  width: 100%;
+}
+
+.albumContainer .album_thumb {
+  height: 100%;
+  width: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 900px) {
+  .albumContainer {
+    margin: 5px;
+  }
+}

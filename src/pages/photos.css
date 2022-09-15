@@ -1,0 +1,16 @@
+.photo_page {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 50px;
+}
+
+.photoCardWrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 767px) {
+  .photoCardWrapper {
+    justify-content: center;
+  }
+}

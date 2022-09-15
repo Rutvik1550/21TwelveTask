@@ -1,0 +1,16 @@
+.album_page {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 50px;
+}
+
+.albumCardWrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 767px) {
+  .albumCardWrapper {
+    justify-content: center;
+  }
+}

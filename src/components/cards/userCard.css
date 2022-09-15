@@ -1,0 +1,26 @@
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  height: 220px;
+  width: 180px;
+  box-shadow: rgb(0 0 0 / 30%) 0px 0px 6px;
+  margin: 5px 10px 10px 5px;
+  padding: 5px;
+  border-radius: 10px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.cardContainer:hover {
+  box-shadow: rgb(0 0 0 / 30%) 0px 0px 12px;
+}
+
+.cardContainer h6 {
+  margin-top: 5px;
+}
+
+@media (max-width: 900px) {
+  .cardContainer {
+    margin: 5px;
+  }
+}
